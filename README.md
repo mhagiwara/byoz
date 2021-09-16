@@ -36,5 +36,6 @@ The script I use for recording my screen can be found here: [byoz](byoz) (this w
   60 20210911
   90 20210912
   90 20210913
- 120 20210914
+ 210 20210914
+ 330 20210915
 ```
