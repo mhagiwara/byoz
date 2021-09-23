@@ -45,14 +45,14 @@ def main():
         zs.append(z)
 
     images = []
-    zs = random.sample(zs, k=9)
+    zs = random.sample(zs, k=16)
     for z in zs:
         im_recon = vae.decode(z)
         im_recon = to_numpy(im_recon)
 
         images.append(im_recon)
     
-    image = pack_images(np.array(images), ncols=3)
+    image = pack_images(np.array(images), ncols=4)
     save_image(image, 'recon.png')
 
 if __name__ == '__main__':
