@@ -143,4 +143,5 @@ The script I use for recording my screen can be found here: [byoz](byoz) (this w
   60 20220106
   60 20220107
   90 20220108
+  90 20220109
 ```
