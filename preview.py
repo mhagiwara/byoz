@@ -45,7 +45,7 @@ def main():
         zs.append(z)
 
     images = []
-    zs = random.sample(zs, k=40)
+    zs = random.sample(zs, k=min(40, len(zs)))
     for z in zs:
         im_recon = vae.decode(z)
         im_recon = to_numpy(im_recon)
