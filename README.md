@@ -11,6 +11,7 @@ The script I use for recording my screen can be found here: [byoz](byoz) (this w
 ![reconstructed image](recon.png)
 
 ## Logged time
+
 ```
  120 20210813
   90 20210821
@@ -237,4 +238,5 @@ The script I use for recording my screen can be found here: [byoz](byoz) (this w
   30 20220416
   90 20220417
  120 20220418
+ 120 20220419
 ```
